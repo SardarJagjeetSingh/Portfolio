@@ -320,7 +320,7 @@ svg {
 }
 
 .home__image {
-    justify-self: center;
+    justify-self: end;
 }
 
 .home__blob {
