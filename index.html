@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!--=============== FAVICON ===============-->
-    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
     <!--=============== REMIXICONS ===============-->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
@@ -14,7 +14,7 @@
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="style.css">
 
-    <title>Responsive portfolio website </title>
+    <title>The Interactive Web</title>
 </head>
 
 <body>
@@ -22,7 +22,8 @@
     <header class="header" id="header">
         <nav class="nav container">
             <a href="#" class="nav__logo">
-                Jagjeet <span>Singh</span>
+                <!-- Jagjeet <span>Singh</span> -->
+                <img src="logo.png" height="100" width="100" alt="">
             </a>
             <div class="nav__menu" id="nav-menu">
                 <ul class="nav__list">
@@ -52,10 +53,10 @@
                     <i class="ri-close-line"></i>
                 </div>
             </div>
-                <!-- Toggle button -->
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class="ri-menu-line"></i>
-                </div>
+            <!-- Toggle button -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
         </nav>
     </header>
 
@@ -84,7 +85,7 @@
                             in quality work.
                         </p>
 
-                        <a href="#contact" class="button"> Let's Talk </a>
+                        <a href="#contact" class="button"> Hire Me! </a>
                     </div>
 
                     <div class="home__social">
@@ -92,11 +93,13 @@
                             <i class="ri-github-fill"></i>
                         </a>
 
-                        <a href="https://dribbble.com/" target="_blank" class="home__social-link">
-                            <i class="ri-dribbble-line"></i>
+                        <a href="https://www.instagram.com/sardar_jagjeet_singh_" target="_blank"
+                            class="footer__social-link">
+                            <i class="ri-instagram-line"></i>
                         </a>
 
-                        <a href="https://www.linkedin.com/in/jagjeet-singh-ab0b9825a" target="_blank" class="home__social-link">
+                        <a href="https://www.linkedin.com/in/jagjeet-singh-ab0b9825a" target="_blank"
+                            class="home__social-link">
                             <i class="ri-linkedin-box-line"></i>
                         </a>
                     </div>
@@ -134,7 +137,8 @@
                             </pattern>
 
                             <!-- Insert your profile (recommended size: 640 x 940) -->
-                            <image class="home__img" id="imageBlob" width="640" height="925" href="pic.webp" />
+                            <image class="home__img" id="imageBlob" width="640" height="1020"
+                                href="profile pic 1.webp" />
                         </defs>
                     </svg>
                 </div>
@@ -195,7 +199,8 @@
                             </pattern>
 
                             <!-- Insert your profile (recommended size: 640 x 940) -->
-                            <image class="about__img" id="imageBorder" width="640" height="940" href="pic.webp" />
+                            <image class="about__img" id="imageBorder" width="640" height="1000"
+                                href="profile pic 1.webp" />
                         </defs>
                     </svg>
                 </div>
@@ -226,14 +231,15 @@
                     <ol class="skills__group">
                         <li class="skills__item">HTML & CSS</li>
                         <li class="skills__item">JavaScript</li>
-                        <li class="skills__item">Bootstrap</li>
+                        <li class="skills__item">Tailwind CSS</li>
                         <li class="skills__item">React</li>
                     </ol>
 
                     <ol class="skills__group" start="5">
+                        <li class="skills__item">Svelte</li>
+                        <li class="skills__item">Next.js</li>
                         <li class="skills__item">Git & GitHub</li>
-                        <li class="skills__item">Figma</li>
-                        <li class="skills__item">Sketch</li>
+                        <li class="skills__item">Photoshop</li>
                     </ol>
                 </div>
             </div>
@@ -300,42 +306,42 @@
 
             <div class="projects__container container grid">
                 <article class="projects__card">
-                    <img src="project-img-1.jpg" alt="projects image" class="projects__img">
+                    <img src="project1.png" alt="projects image" class="projects__img">
 
                     <div class="projects__modal">
                         <span class="projects__subtitle">Web</span>
 
                         <h2 class="projects__title">Modern website</h2>
 
-                        <a href="#" class="projects__button">
-                            View demo <i class="ri-external-link-line"></i>
-                        </a>
-                    </div>
-                </article>
-                
-                <article class="projects__card">
-                    <img src="project-img-2.jpg" alt="projects image" class="projects__img">
-
-                    <div class="projects__modal">
-                        <span class="projects__subtitle">Web</span>
-
-                        <h2 class="projects__title">Modern website</h2>
-
-                        <a href="#" class="projects__button">
+                        <a href="https://www.autismspecialist.co.in/" target="_blank" class="projects__button">
                             View demo <i class="ri-external-link-line"></i>
                         </a>
                     </div>
                 </article>
 
                 <article class="projects__card">
-                    <img src="project-img-3.jpg" alt="projects image" class="projects__img">
+                    <img src="project2.png" alt="projects image" class="projects__img">
 
                     <div class="projects__modal">
                         <span class="projects__subtitle">Web</span>
 
                         <h2 class="projects__title">Modern website</h2>
 
-                        <a href="#" class="projects__button">
+                        <a href="https://www.mindfulmasters.in/" class="projects__button">
+                            View demo <i class="ri-external-link-line"></i>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="projects__card">
+                    <img src="project3.png" alt="projects image" class="projects__img">
+
+                    <div class="projects__modal">
+                        <span class="projects__subtitle">Web</span>
+
+                        <h2 class="projects__title">Modern website</h2>
+
+                        <a href="https://burgerbiites.vercel.app/" class="projects__button">
                             View demo <i class="ri-external-link-line"></i>
                         </a>
                     </div>
@@ -398,11 +404,14 @@
             <div class="contact__container container grid">
                 <form action="" class="contact__form" id="contact-form">
                     <div class="contact__group">
-                        <input type="text" name="user_name" required placeholder="Enter your name" class="contact__input">
-                        <input type="email" name="user_email" required placeholder="Enter your email" class="contact__input">
+                        <input type="text" name="user_name" required placeholder="Enter your name"
+                            class="contact__input">
+                        <input type="email" name="user_email" required placeholder="Enter your email"
+                            class="contact__input">
                     </div>
 
-                    <textarea name="user_project" required placeholder="Enter your message" class="contact__input"></textarea>
+                    <textarea name="user_project" required placeholder="Enter your message"
+                        class="contact__input"></textarea>
 
                     <p class="contact__message" id="contact-message"> </p>
 
@@ -423,7 +432,7 @@
                 </h1>
 
                 <h2 class="footer__education">
-                    Front-end Developer  
+                    Front-end Developer
                 </h2>
             </div>
 
@@ -436,7 +445,8 @@
                     <i class="ri-instagram-line"></i>
                 </a>
 
-                <a href="https://www.linkedin.com/in/jagjeet-singh-ab0b9825a" target="_blank" class="footer__social-link">
+                <a href="https://www.linkedin.com/in/jagjeet-singh-ab0b9825a" target="_blank"
+                    class="footer__social-link">
                     <i class="ri-linkedin-box-line"></i>
                 </a>
             </div>
