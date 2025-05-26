@@ -46,7 +46,7 @@ const sendEmail = (e) => {
     e.preventDefault()
 
     // serviceID - templateID - #form - publicKey
-    emailjs.sendForm('service_uiu0iij','template_65qq4ds','#contact-form','xxYRKtr0l4co0d8Xx')
+    emailjs.sendForm('service_gtz209c','template_azgnnk4','#contact-form','fMUNjvFBfzV8rG0e6')
     .then(() =>{
         // Show sent message
         contactMessage.textContent = 'Message sent successfully ✅'
@@ -66,6 +66,46 @@ const sendEmail = (e) => {
 }
 
 contactForm.addEventListener('submit', sendEmail)
+
+/*=============== EMAIL JS ===============*/
+// const contactForm = document.getElementById('contact-form'),
+//       contactMessage = document.getElementById('contact-message');
+
+// // Optional: Initialize EmailJS (do this once, ideally in main.js)
+// emailjs.init('xxYRKtr0l4co0d8Xx');
+
+// const sendEmail = (e) => {
+//     e.preventDefault();
+
+//     // Optional: Basic validation
+//     const name = contactForm.querySelector('[name="user_name"]').value.trim();
+//     const email = contactForm.querySelector('[name="user_email"]').value.trim();
+//     const message = contactForm.querySelector('[name="message"]').value.trim();
+
+//     if (!name || !email || !message) {
+//         contactMessage.textContent = 'Please fill in all fields ❗';
+//         return;
+//     }
+
+//     contactMessage.textContent = 'Sending... ⏳';
+
+//     emailjs.sendForm('service_uiu0iij','template_65qq4ds','#contact-form','xxYRKtr0l4co0d8Xx')
+//     .then(() => {
+//         contactMessage.textContent = 'Message sent successfully ✅';
+//         setTimeout(() => {
+//             contactMessage.textContent = '';
+//         }, 5000);
+//         contactForm.reset();
+//     }, () => {
+//         contactMessage.textContent = 'Message not sent (service error) ❌';
+//     });
+// }
+
+// contactForm.addEventListener('submit', sendEmail);
+
+
+
+
 /*=============== SHOW SCROLL UP ===============*/ 
 const scrollUp = () =>{
 	const scrollUp = document.getElementById('scroll-up')
